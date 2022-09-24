@@ -1,5 +1,6 @@
 {
   "name": "@e-hundun/serve",
   "version": "0.0.0",
-  "description": "Middleware for serving static files"
+  "description": "Middleware for serving static files",
+  "main": "index.js"
 }
