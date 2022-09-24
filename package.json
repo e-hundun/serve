@@ -2,5 +2,10 @@
   "name": "@e-hundun/serve",
   "version": "0.0.0",
   "description": "Middleware for serving static files",
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "supertest": "^6.2.4"
+  }
 }
