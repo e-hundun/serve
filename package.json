@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Middleware for serving static files",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "nyc mocha",
     "html": "nyc ---reporter=html mocha"
