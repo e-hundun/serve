@@ -11,6 +11,7 @@
     "html": "nyc ---reporter=html mocha"
   },
   "devDependencies": {
+    "@e-hundun/onion": "0.0.2",
     "mocha": "^10.0.0",
     "nyc": "^15.1.0",
     "supertest": "^6.2.4"
