@@ -11,9 +11,8 @@ function Serve(root) {
         try {
             const data = await fs.readFile(file);
             res.end(data);
-        } catch (err) {
-            console.log(err);
-            return next();
+        } catch {
+            await next();
         }
     };
 }
