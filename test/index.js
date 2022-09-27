@@ -21,7 +21,7 @@ describe('Serve(root)', () => {
         request(app)
             .get('/text.txt')
             .expect(200)
-            .expect('Content in /text.txt.\n', done);
+            .expect('Content in /text.txt', done);
     });
 
     it('GET /nowhere', done => {
